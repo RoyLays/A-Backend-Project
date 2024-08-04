@@ -5,13 +5,13 @@ body {
     padding: 0;
   }
   
-  .container {
-    max-width: 500px;
+  .containerpers {
+    max-width: 80%;
     margin: 0 auto;
     padding: 20px;
   }
   
-  .card {
+  .cardpers {
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -53,7 +53,7 @@ body {
   .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #f30d19;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -61,6 +61,6 @@ body {
   }
   
   .button:hover {
-    background-color: #0056b3;
+    background-color: #a90a12;
   }
   

@@ -15,6 +15,11 @@
       <!--pinterest logo-->
       <img src="https://i.pinimg.com/originals/d3/d1/75/d3d175e560ae133f1ed5cd4ec173751a.png" alt="pin logo" class="img1" />
       <p class="header">Login to your account</p>
+
+      <% if(error.length > 0){ %>
+          <b class="error"><%= error %></b>
+        <% } %>
+
       <form action="/login" method="post">
 
         <input type="text" name="username" placeholder="Username" class="detail" /><br />

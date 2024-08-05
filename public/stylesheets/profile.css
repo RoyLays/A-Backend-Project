@@ -50,6 +50,13 @@ body {
     margin: 10px 0;
   }
   
+  .flex{
+    display: flex;
+    flex-wrap: warp;
+    gap: 20px;
+    align-items: start;
+  }
+
   .button {
     display: inline-block;
     padding: 10px 20px;
